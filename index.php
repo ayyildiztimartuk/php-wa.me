@@ -1,8 +1,8 @@
 <?php
 error_reporting(0);
-if (isset($_POST['numara'])) {
-    $numara = $_POST['numara'];
-    header("Location:https://wa.me/+90".$numara);
+if (isset($_POST['$number'])) {
+    $number = $_POST['$number'];
+    header("Location:https://wa.me/+90".$number);
 }
 
 
@@ -27,7 +27,7 @@ if (isset($_POST['numara'])) {
    <br><br>
    <img width="150" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" alt="">
    <br><br>
-   <h3 style="color: white;">WhatsApp - Mesaj Gönder</h3>
+   <h3 style="color: white;">WhatsApp - Send Message</h3>
    <hr class="bg-light">
    <br><br>
 
@@ -35,9 +35,9 @@ if (isset($_POST['numara'])) {
 
    <form action="" method="post">
 
-   <input class="form-control w-75" type="text" name="numara" placeholder="Lütfen Telefon Numarası Giriniz" require>
+   <input class="form-control w-75" type="text" name="$number" placeholder="Please Enter Number" require>
    <br>
-  <button type="submit" class="btn btn-success btn-lg">Gönder</button>
+  <button type="submit" class="btn btn-success btn-lg">Send</button>
    </form>
    </div>
    
